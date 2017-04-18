@@ -1,0 +1,25 @@
+{
+  "name": "ghost-starter",
+  "version": "0.1.0",
+  "description": "Ghost development with build management and a flexible server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "gulp dev",
+    "predist": "rimraf dist",
+    "dist": "gulp dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Bowen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "ghost": "0.11.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1"
+  }
+}
